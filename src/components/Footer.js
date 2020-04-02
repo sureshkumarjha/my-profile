@@ -7,24 +7,10 @@ function Footer() {
     <div id="contact">
     <footer className="pa4 pa5-l black-70 bt b--black-10">
 
-      <section className="cf mb5">
-        <div className="mb4 mb0-ns w-100 w-50-l fr">
-          <a className="black-70 f3 f2-ns fw6 tl link dim dib pv3 mt2 mb4 mb0-l" href="mailto:hello@impossible.com" >
-            hello@yourcompany.com
-          </a>
-        </div>
-        <div className="mb4 mb0-ns fl w-100 w-50-l" >
-          <p className="f4 fw6 mb2 f6 mt0">
-            Sign up for our newsletter.
-          </p>
-          <input placeholder="Email Address" className="mw-100 w-100 w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box"/>
-          <input type="submit" className="input-reset w-100 w-auto-ns bg-black-80 white f5 pv2 pv3-ns ph4 ba b--black-80 bg-hover-mid-gray"/>
-        </div>
-      </section>
       <div className="dt dt--fixed w-100" >
         <div className="dn dtc-ns v-mid">
           <p className="f7 black-70 dib pr3 mb3">
-            Copyright © Your Company 2048
+            Copyright © SureshKumarJha 2020
           </p>
         </div>
         <div className="db dtc-ns black-70 tc tr-ns v-mid">
@@ -79,7 +65,7 @@ function Footer() {
       </div>
       <div className="db dn-ns">
         <p className="f7 black-70 mt4 tc">
-          Copyright © Your Company 2038
+          Copyright © SureshKumarJha 2020
         </p>
       </div>
     </footer>
