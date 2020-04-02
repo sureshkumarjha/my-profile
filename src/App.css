@@ -48,3 +48,54 @@
     font-weight: 1000;
     letter-spacing: 1px;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .1;
+    width: 50%;
+    background: #3e64ff;
+}
+
+/*Nav Side Bar*/
+
+.sidenav {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left : 0;
+  background-color: #111;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+

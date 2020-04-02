@@ -2,7 +2,7 @@ import React ,{ useState,useEffect  } from 'react';
 
 
 function SlidingText() {
-  var arr = [ "nerdy.", "simple.", "pure JS.", "pretty.", "fun!","Coder.." ]
+  var arr = [ "Web Designer.", "Developer.", "BasketBall Player.", "Nerdy!"]
   const [val, setVal] = useState('');
   var i = 0
   var c = 0
